@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "533c8b3f-11d4-4100-b006-c79bd1300f3f",
+		"name": "House_Price_Prediction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://0.0.0.0:5000/login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "emailid",
+							"value": "rdkendre@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Rahul12345",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5000/login",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://0.0.0.0:5006/credit/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "lastname",
+							"value": "Kendre",
+							"type": "text"
+						},
+						{
+							"key": "mobile_number",
+							"value": "9404282020",
+							"type": "text"
+						},
+						{
+							"key": "emailid",
+							"value": "rahulkendre@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Rahul1234",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Rahul",
+							"type": "text"
+						},
+						{
+							"key": "user_name",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5006/credit/register",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5006",
+					"path": [
+						"credit",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://0.0.0.0:5004/predict_home_price",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "sqft",
+							"value": "2000",
+							"type": "text"
+						},
+						{
+							"key": "bath",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "bhk",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "loc",
+							"value": "amruthahalli",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://0.0.0.0:5004/predict_home_price",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5004",
+					"path": [
+						"predict_home_price"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://0.0.0.0:5004/get_location_names",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:5004/get_location_names",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "5004",
+					"path": [
+						"get_location_names"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

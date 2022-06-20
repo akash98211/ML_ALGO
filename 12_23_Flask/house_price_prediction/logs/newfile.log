@@ -1,0 +1,9 @@
+2021-08-03 19:00:36,938  * Debugger is active!
+22021-08-03 19:03:16,133  * Restarting with stat
+64
+2021-08-03 19:00:36,956  * Running on http://0.0.0.0:5004/ (Press CTRL+C to quit)
+2021-08-03 19:00:43,317 127.0.0.1 - - [03/Aug/2021 19:00:43] "[37mPOST /predict_home_price HTTP/1.1[0m" 200 -
+2021-08-03 19:00:43,656 127.0.0.1 - - [03/Aug/2021 19:00:43] "[37mGET /get_location_names HTTP/1.1[0m" 200 -
+2021-08-03 19:00:49,600 127.0.0.1 - - [03/Aug/2021 19:00:49] "[37mPOST /predict_home_price HTTP/1.1[0m" 200 -
+2021-08-03 19:00:49,899 127.0.0.1 - - [03/Aug/2021 19:00:49] "[37mGET /get_location_names HTTP/1.1[0m" 200 -
+2021-08-03 19:03:16,031  * Detected change in 'D:\\workspace\\house_price_prediction\\run.py', reloading

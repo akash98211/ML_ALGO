@@ -1,0 +1,1 @@
+DATABASE = 'credit_db'
